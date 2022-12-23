@@ -3,6 +3,9 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'arcore_client', ext:'aar')
+    implementation(name: 'ARPresto', ext:'aar')
+    implementation(name: 'UnityARCore', ext:'aar')
     implementation(name: 'unityandroidpermissions', ext:'aar')
 
 }
@@ -17,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 22
+        minSdkVersion 24
         targetSdkVersion 30
         ndk {
             abiFilters 'armeabi-v7a'

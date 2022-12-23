@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{058ED683-EC3C-3D7A-5BD2-DE5AC38D490D}</ProjectGuid>
+    <ProjectGuid>{92189E51-A93B-90BF-666E-F2F0E6A9CB86}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Internal</AssemblyName>
@@ -81,8 +81,8 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Registry\DependencyTreeInitializeOrderSorter.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Networking\ReadOnlyHttpResponse.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\AsyncOperation\AsyncOperation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Telemetry\IDiagnosticsFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Registry\CoreRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Telemetry\IDiagnosticsFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Registry\DependencyTreeExceptions.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Authentication\IPlayerId.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime\Core.Internal\Components\Configuration\IProjectConfiguration.cs" />
@@ -693,11 +693,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{37213E53-EB1B-B74C-15BF-1650C9DF3C79}</Project>
+      <Project>{98E284BB-8E94-8D80-7817-B1B4B2752D94}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{04BC0295-8631-A955-37C4-0DD046917F35}</Project>
+      <Project>{A0C91A1D-2780-5E54-266E-F82A45139E95}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

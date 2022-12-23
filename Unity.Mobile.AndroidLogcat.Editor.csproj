@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DB5BC47C-BA4F-E864-20EB-2973026237DF}</ProjectGuid>
+    <ProjectGuid>{F0EADC3F-57FD-07D9-0BDB-4BF97A030F8B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Mobile.AndroidLogcat.Editor</AssemblyName>
@@ -789,20 +789,20 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{135B8986-99ED-89F4-C803-75AC478F7F39}</Project>
+      <Project>{96C439F9-A8F8-0B8C-4198-B91DA87D7F67}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5C8D23A9-83C2-3670-1339-E05F9D6813A9}</Project>
+      <Project>{237E53D7-8524-358F-2D33-99B04F916771}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{708DF10E-78CC-B5A5-C456-6B3AA7174317}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1D04A25A-E1EE-2845-4D8B-CAA4CEAD4D54}</Project>
+      <Project>{C6AD14AF-E72C-31B9-8931-B00127D9E0AB}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{DF825589-39C8-154B-5AC7-C98CA188033A}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

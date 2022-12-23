@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8CEBB96E-2D6A-E3A2-E84F-D3DA3866AF77}</ProjectGuid>
+    <ProjectGuid>{2E0B891C-ECEB-444A-724A-7C4E421802D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Management</AssemblyName>
@@ -56,13 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRConfigurationData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRGeneralSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\IXRLoaderPreInit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRManagerSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRManagementAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRLoaderHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRGeneralSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRManagerSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRConfigurationData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\IXRLoaderPreInit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\XRManagementAnalytics.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.management@4.2.0\Runtime\Unity.XR.Management.asmdef" />
@@ -635,7 +635,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{04BC0295-8631-A955-37C4-0DD046917F35}</Project>
+      <Project>{A0C91A1D-2780-5E54-266E-F82A45139E95}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

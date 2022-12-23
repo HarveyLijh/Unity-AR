@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{321E70B4-05FA-652E-DFD4-3A615AC41BA1}</ProjectGuid>
+    <ProjectGuid>{E817D40C-8C85-AD99-2A5C-A2517E9C514D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.AdaptivePerformance.Profiler.Editor</AssemblyName>
@@ -748,28 +748,28 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.AdaptivePerformance.csproj">
-      <Project>{E84F1139-68DC-9B54-C50C-63468E2C1A2D}</Project>
+      <Project>{0B864824-3269-4736-03E7-B3557D1B7EF9}</Project>
       <Name>Unity.AdaptivePerformance</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
-      <Project>{3BDEF890-FEFE-5418-44AF-9BE88C4C323A}</Project>
+      <Project>{899C3443-0295-8530-7DF3-F3019BC121DA}</Project>
       <Name>Unity.AdaptivePerformance.UI.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{135B8986-99ED-89F4-C803-75AC478F7F39}</Project>
+      <Project>{96C439F9-A8F8-0B8C-4198-B91DA87D7F67}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5C8D23A9-83C2-3670-1339-E05F9D6813A9}</Project>
+      <Project>{237E53D7-8524-358F-2D33-99B04F916771}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{708DF10E-78CC-B5A5-C456-6B3AA7174317}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1D04A25A-E1EE-2845-4D8B-CAA4CEAD4D54}</Project>
+      <Project>{C6AD14AF-E72C-31B9-8931-B00127D9E0AB}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{DF825589-39C8-154B-5AC7-C98CA188033A}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{77876FE9-1F11-2023-413D-4251F1B8F37A}</ProjectGuid>
+    <ProjectGuid>{A65FCB81-809A-EB4F-3DEA-BF4B3294250A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Configuration.Editor</AssemblyName>
@@ -749,32 +749,32 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{E63E3532-59D3-158A-C69D-70B2B54144DC}</Project>
+      <Project>{430DF5D5-3503-363D-1167-09A370048A17}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.csproj">
-      <Project>{AFC8BE0C-E383-493B-E234-7BBCC2CFC28E}</Project>
+      <Project>{06471C12-AD2E-3E9D-22C3-D42E85789CD7}</Project>
       <Name>Unity.Services.Core.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{791490A3-028A-6493-F2DB-073E20859988}</Project>
+      <Project>{F9C92264-028A-DD4C-71A8-9A8858818B05}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{135B8986-99ED-89F4-C803-75AC478F7F39}</Project>
+      <Project>{96C439F9-A8F8-0B8C-4198-B91DA87D7F67}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5C8D23A9-83C2-3670-1339-E05F9D6813A9}</Project>
+      <Project>{237E53D7-8524-358F-2D33-99B04F916771}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{708DF10E-78CC-B5A5-C456-6B3AA7174317}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1D04A25A-E1EE-2845-4D8B-CAA4CEAD4D54}</Project>
+      <Project>{C6AD14AF-E72C-31B9-8931-B00127D9E0AB}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{DF825589-39C8-154B-5AC7-C98CA188033A}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DefaultCompany.VRProject",
+  "applicationId": "com.harveylijh.arapp",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,9 +19,9 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "com.DefaultCompany.VRProject",
+        "packageId": "com.harveylijh.arapp",
         "split": "",
-        "minSdkVersion": "22"
+        "minSdkVersion": "24"
       }
     }
   ]

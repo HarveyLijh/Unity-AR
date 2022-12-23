@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E84F1139-68DC-9B54-C50C-63468E2C1A2D}</ProjectGuid>
+    <ProjectGuid>{0B864824-3269-4736-03E7-B3557D1B7EF9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.AdaptivePerformance</AssemblyName>
@@ -777,27 +777,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{F809DFA9-BB7D-B773-451F-FFB9B9DE19D9}</Project>
+      <Project>{EFDD4D26-9ACD-C565-9C45-09FBA90E4A0C}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Profiling.Core.csproj">
-      <Project>{68BD4704-BAE7-810B-C47B-1444DB7B078C}</Project>
+      <Project>{D22B36E1-C7D4-A22D-F31E-57DCDC9B4244}</Project>
       <Name>Unity.Profiling.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{16DC9DCA-2B6F-ABF9-4E1C-CD23065B4C37}</Project>
+      <Project>{742E6FAE-56E0-624E-EEAF-E2BB3AEE4929}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{975B4E70-FDF8-C280-862F-20F21084C2FF}</Project>
+      <Project>{933FEE88-5114-EEFC-8B76-01EFD7FA9291}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{135B8986-99ED-89F4-C803-75AC478F7F39}</Project>
+      <Project>{96C439F9-A8F8-0B8C-4198-B91DA87D7F67}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5C8D23A9-83C2-3670-1339-E05F9D6813A9}</Project>
+      <Project>{237E53D7-8524-358F-2D33-99B04F916771}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

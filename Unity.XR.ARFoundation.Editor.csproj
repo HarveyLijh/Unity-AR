@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EA5853EF-1FEF-7548-FE81-9ECD2F7375D2}</ProjectGuid>
+    <ProjectGuid>{8F3B9D0A-241F-EB66-4516-C6AB501E727E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARFoundation.Editor</AssemblyName>
@@ -56,12 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\SceneUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\PlaneDetectionModeAttributeDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\ARCameraBackgroundEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\AROcclusionManagerEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\ARSceneValidator.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\ARSessionEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\ARCameraBackgroundEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\SceneUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\ARSceneValidator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\AROcclusionManagerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.arfoundation@4.2.7\Editor\Unity.XR.ARFoundation.Editor.asmdef" />
@@ -748,40 +748,40 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{908BE415-56C2-F7A0-9A01-4E404A6022CE}</Project>
+      <Project>{37AB235C-954D-368E-2136-471BBE52C465}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{AFA1D1C2-194E-8B2E-196A-6E698B94D886}</Project>
+      <Project>{6F80A9F9-2D3A-756E-A4FD-781FAC4BEF97}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{F79AAE47-EB5E-3252-8D42-DD004E69DD30}</Project>
+      <Project>{34097D7C-509B-4921-4DA9-425F3F3F2A20}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{DF17035E-FC8F-7E1B-D17E-A5BE2F9E34BC}</Project>
+      <Project>{A9C68731-2099-BEC9-7F23-76C24A71CB57}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{75E68991-19A0-3EF1-9377-7A65351E4B3E}</Project>
+      <Project>{E8496D7D-43B6-2656-BCA3-26CD51AF4087}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{135B8986-99ED-89F4-C803-75AC478F7F39}</Project>
+      <Project>{96C439F9-A8F8-0B8C-4198-B91DA87D7F67}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5C8D23A9-83C2-3670-1339-E05F9D6813A9}</Project>
+      <Project>{237E53D7-8524-358F-2D33-99B04F916771}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{708DF10E-78CC-B5A5-C456-6B3AA7174317}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1D04A25A-E1EE-2845-4D8B-CAA4CEAD4D54}</Project>
+      <Project>{C6AD14AF-E72C-31B9-8931-B00127D9E0AB}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{DF825589-39C8-154B-5AC7-C98CA188033A}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

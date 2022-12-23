@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{15A97FFF-39EF-DE19-F244-03192ADA7F02}</ProjectGuid>
+    <ProjectGuid>{63A1C4D8-AF56-50AD-0A46-3F3BD65FB17B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.AdaptivePerformance.Samsung.Android</AssemblyName>
@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\Provider\SamsungGameSDKAdaptivePerformanceSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\Provider\Management\SamsungAndroidProviderConstants.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\Scalers\AdaptiveVariableRefreshRate.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\Provider\Management\SamsungAndroidProviderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\SamsungVariableRefreshRate.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\Scalers\AdaptiveVariableRefreshRate.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\Provider\SamsungGameSDKAdaptivePerformanceSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance.samsung.android@4.0.2\Runtime\Provider\Management\SamsungAndroidProviderLoader.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -724,19 +724,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.AdaptivePerformance.csproj">
-      <Project>{E84F1139-68DC-9B54-C50C-63468E2C1A2D}</Project>
+      <Project>{0B864824-3269-4736-03E7-B3557D1B7EF9}</Project>
       <Name>Unity.AdaptivePerformance</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
-      <Project>{3EFC411A-0F8D-3883-FB41-1E5AC148E633}</Project>
+      <Project>{4C1D7B6B-2624-6BBD-0AA4-2A50FF4343DA}</Project>
       <Name>Unity.AdaptivePerformance.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{135B8986-99ED-89F4-C803-75AC478F7F39}</Project>
+      <Project>{96C439F9-A8F8-0B8C-4198-B91DA87D7F67}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5C8D23A9-83C2-3670-1339-E05F9D6813A9}</Project>
+      <Project>{237E53D7-8524-358F-2D33-99B04F916771}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

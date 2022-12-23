@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E98EA791-11C7-880A-BDB3-A688473EC484}</ProjectGuid>
+    <ProjectGuid>{47D548D7-D1C6-85FF-5AD4-31CF948B7013}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -625,81 +625,85 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Profiling.Core.Player.csproj">
-      <Project>{67AE70A9-F535-FC1B-973D-FF53DD7086A6}</Project>
-      <Name>Unity.Profiling.Core.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{D847409C-C747-27B3-CD87-CC1912548164}</Project>
-      <Name>Unity.Timeline.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{B1F93334-C92B-4A67-221D-0AEB2EA3ACB8}</Project>
-      <Name>Unity.TextMeshPro.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
-      <Project>{5AC62ADC-72FB-1F73-B288-22B58AD2CCEA}</Project>
-      <Name>Unity.Subsystem.Registration.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{0616E435-6291-2F53-BD71-BF30DEDC58A5}</Project>
-      <Name>Unity.VisualScripting.Flow.Player</Name>
+    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
+      <Project>{39E0DFAD-1BA7-FEF2-491A-FB3A31A04135}</Project>
+      <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{04BC0295-8631-A955-37C4-0DD046917F35}</Project>
+      <Project>{A0C91A1D-2780-5E54-266E-F82A45139E95}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{37213E53-EB1B-B74C-15BF-1650C9DF3C79}</Project>
-      <Name>Unity.Services.Core.Player</Name>
+    <ProjectReference Include="Unity.XR.Management.Player.csproj">
+      <Project>{2E0B891C-ECEB-444A-724A-7C4E421802D9}</Project>
+      <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{88FE5038-F5A7-ACBD-594B-1DBC40C0DA2E}</Project>
-      <Name>Unity.VisualScripting.Core.Player</Name>
+    <ProjectReference Include="Unity.XR.ARCore.Player.csproj">
+      <Project>{C37EF7D4-1499-4050-7F6F-A461E82256F8}</Project>
+      <Name>Unity.XR.ARCore.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{58B8D2EA-182D-8E20-3247-D638506D018E}</Project>
-      <Name>Unity.Services.Core.Analytics.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{1F772879-BACE-6729-AE60-227C7D439351}</Project>
-      <Name>Unity.Services.Core.Environments.Player</Name>
+    <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
+      <Project>{D8D93E11-74FE-03BC-0D6F-12CB1B0BCD1F}</Project>
+      <Name>Unity.XR.ARSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Player.csproj">
-      <Project>{13C1DDC2-AE1A-3CD9-9A2F-35F42DA8E46B}</Project>
+      <Project>{1E1EA02B-C6DC-4208-D208-75ED37758FC0}</Project>
       <Name>Unity.AdaptivePerformance.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Notifications.Android.Player.csproj">
-      <Project>{57945660-FE4E-BA35-DEBC-42EEBDCF7AC5}</Project>
+      <Project>{9A907B47-D6DC-5F24-C8E5-E6D8AA77506F}</Project>
       <Name>Unity.Notifications.Android.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{8888A93E-9585-B15A-C222-508CA0EF58E4}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
+    <ProjectReference Include="Unity.Profiling.Core.Player.csproj">
+      <Project>{7D94DB53-59B4-AA28-1CCA-FC3F2B1D3B44}</Project>
+      <Name>Unity.Profiling.Core.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{AA149A84-7790-A9DB-2C31-8C0349F4836D}</Project>
-      <Name>UnityEngine.SpatialTracking.Player</Name>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{DEEDBD1A-5489-1D29-586D-268E02AEBEAE}</Project>
+      <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
-      <Project>{FF4C21E9-9FEA-5F06-0104-A52A79A6F93A}</Project>
-      <Name>Unity.XR.ARSubsystems.Player</Name>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{7571AABD-523C-0491-FB3B-6E3BD5B08B9D}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
-      <Project>{EA851103-E445-FD6C-E9DE-071070D261B0}</Project>
-      <Name>Unity.XR.ARFoundation.Player</Name>
+    <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
+      <Project>{5ACD2402-0861-A0AE-1544-BADA0D1F0C07}</Project>
+      <Name>Unity.Subsystem.Registration.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{8CEBB96E-2D6A-E3A2-E84F-D3DA3866AF77}</Project>
-      <Name>Unity.XR.Management.Player</Name>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
+      <Project>{40C1F55C-7D04-9938-34CB-589E67118887}</Project>
+      <Name>Unity.VisualScripting.Flow.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Player.csproj">
+      <Project>{98E284BB-8E94-8D80-7817-B1B4B2752D94}</Project>
+      <Name>Unity.Services.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
+      <Project>{E6C4E7F3-A31D-7D99-1405-1388931E407D}</Project>
+      <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
+      <Project>{BCB8F8BA-7631-E222-73C0-64B346B45250}</Project>
+      <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{939B56FD-38AD-3DF6-C251-6A1BFB82CDB5}</Project>
+      <Project>{6CB1A8DE-12DF-DB18-541A-7020335373C7}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARCore.Player.csproj">
-      <Project>{4A1F83BC-B690-AE81-18BC-2596A9992F38}</Project>
-      <Name>Unity.XR.ARCore.Player</Name>
+    <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
+      <Project>{F31461D9-5FB4-0031-BB9D-274CCAC1BFC2}</Project>
+      <Name>Unity.Services.Core.Environments.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{17D114DD-CEE9-2397-405B-54706F4994B3}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Samsung.Android.Player.csproj">
+      <Project>{2AFC748D-D39F-6DAB-CDA2-C5B577349229}</Project>
+      <Name>Unity.AdaptivePerformance.Samsung.Android.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
+      <Project>{087697F5-6834-34A8-B29D-0722FC5F3A94}</Project>
+      <Name>Unity.XR.ARFoundation.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

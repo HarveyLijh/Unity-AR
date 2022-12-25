@@ -5690,12 +5690,6 @@ struct NSMutableData_tD8A9B0E8B362DFF9E6ADF4C4E5F7C3101EA99BBD
 	intptr_t ___m_Self_0;
 };
 
-struct NSMutableData_tD8A9B0E8B362DFF9E6ADF4C4E5F7C3101EA99BBD_StaticFields
-{
-	// System.String UnityEngine.XR.ARKit.NSMutableData::k_ExceptionMsg
-	String_t* ___k_ExceptionMsg_1;
-};
-
 // UnityEngine.XR.ARKit.NSMutableString
 struct NSMutableString_t45B569C499EC13C60D9131B3A0D7E15D806DDA26 
 {

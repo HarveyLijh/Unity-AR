@@ -231,6 +231,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -243,6 +244,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -4132,9 +4134,11 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.2
     - 2.1.0
+    - 2.1.1
     compatible:
     - 2.1.0
-    verified: 2.1.0
+    - 2.1.1
+    verified: 2.1.1
   dependencies:
   - name: com.unity.modules.androidjni
     version: 1.0.0

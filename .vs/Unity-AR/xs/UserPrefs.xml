@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{D7811722-CE96-BD2D-4A28-05C4B882C12B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mapbox/Unity/Editor/Build/Mapbox_iOS_build.cs">
+    <Files>
+      <File FileName="Assets/Mapbox/Unity/Editor/Build/Mapbox_iOS_build.cs" Line="22" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="92b5b0a4-3707-44d1-80ef-2dba8d9a8172" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

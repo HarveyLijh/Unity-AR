@@ -480,6 +480,9 @@
 "Assets/GoogleMaps/Examples/URPExample/Scripts/SimpleViewController.cs"
 "Assets/GoogleMaps/Examples/URPExample/Scripts/URPExample.cs"
 "Assets/GoogleMaps/Scripts/DeviceCountryProvider.cs"
+"Assets/Scripts/GoogleMap/MapStyles/MapFeaturesController.cs"
+"Assets/Scripts/GoogleMap/MobileDeviceEditorController.cs"
+"Assets/Scripts/GoogleMap/MobileDeviceLocationFollower.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

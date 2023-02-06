@@ -404,6 +404,7 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Editor/Build.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 

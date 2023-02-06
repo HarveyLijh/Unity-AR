@@ -56,7 +56,134 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\UI\SearchByIdDialog.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\Label.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\RoadLabelMover.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\BaseConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\ExampleDefaults.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\URPExample\Scripts\SateliteHudUpdater.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\RoadLatticeTools.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\SliderController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\SunAndMoonController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\LatLngPrefabStampingExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\URPExample\Scripts\CameraSelector.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Intersections\Scripts\Intersections.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\Minimap.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\AddingComponent.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\ProgressBarUpdater.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\DayAndNight.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\SegmentConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Scripts\DeviceCountryProvider.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\RoadLatticeCharacterController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\AreaWaterConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\BuildingExploder.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\BuildingTexturer.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\GyroController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\LocationFollower.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Utils\MapsGamingExamplesUtils.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\EditTimePreview\Scripts\EditTimePreviewExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Intersections\Scripts\TrafficSystem.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Scripts\BuildingSquashing.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Scripts\NineSlicing.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\UI\MapsServiceView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\FencingExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\IStyleConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Intersections\Scripts\Vehicle.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Scripts\CameraFollower.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Terrain\Scripts\TerrainExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\JoystickButton.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\ZoomPinch.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\AttributedRoadLattice.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MixedZoom\Scripts\MixedZoomLoader.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Utils\ListenToDestroy.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\FenceChecker.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\MinimapExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\SmoothFollowCamera.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\PathFindingView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\DynamicMapsUpdater.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\PathFindingExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\InstructionsButton.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\URPExample\Scripts\URPExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\BaseMapLoader.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Scripts\BuildingBorders.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Scripts\Parapets.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\SearchByPlaceIdUpdater.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\PrivateRoads.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\MeshCleaner.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\FloatingOriginUpdater.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\ErrorHandling.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\UI\Labeller.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\MapFeaturesController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Scripts\PrefabReplacement.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\ExampleErrors.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\URPExample\Scripts\SimpleViewController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\RoadLabelsCreator.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MixedZoom\Scripts\SteeringController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\ActionTimer.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\InstructionsHandler.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\Extruder.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\URPExample\Scripts\CompassAltimeterUpdater.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\RegionConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\01_GettingStarted\Scripts\BasicExample.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\ModeledStructureConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Scripts\Squasher.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\BuildingLabelsCreator.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\FollowCameraController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Intersections\Scripts\VehicleSpawner.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\TargetMovementController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\URPExample\Scripts\SetMeshSortingOrder.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\MapsStylingEditorView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\AmbianceConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\Fence.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\ApiKeyChecker.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\MixedZoom\Scripts\ObjectFollower.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\JoystickController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\EmissionController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\LightFader.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Fencing\Scripts\MissileBehaviour.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\RoadLatticeAIController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\CameraRigController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\RoadLatticeNodesVisualizer.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\03_MapsStyling\Scripts\ExtrudedStructureConfigView.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\Miscellaneous\Scripts\PermissionRationaleDialog.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\PanelAnimationController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\DynamicMapsService.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\02_Fundamentals\Scripts\Updaters\MapLabeller.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\SharedAssets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\GoogleMaps\Examples\04_Advanced\RoadLattice\Scripts\PathingAgent.cs" />
+    <Compile Include="Assets\Scripts\GoogleMap\MobileDeviceEditorController.cs" />
+    <Compile Include="Assets\Scripts\GoogleMap\MobileDeviceLocationFollower.cs" />
+    <Compile Include="Assets\Scripts\GoogleMap\MapStyles\MapFeaturesController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GoogleMaps\Examples\SharedAssets\Shaders\ScrollingTextureShader.shader" />
+    <None Include="Assets\GoogleMaps\Examples\03_MapsStyling\Shaders\TileableExtrudedStructureShader.shader" />
+    <None Include="Assets\GoogleMaps\Examples\03_MapsStyling\Shaders\BaseMapSeamless.shader" />
+    <None Include="Assets\GoogleMaps\Plugins\Google.Maps.dll" />
+    <None Include="Assets\GoogleMaps\Examples\03_MapsStyling\Shaders\StandardCustomShader.shader" />
+    <None Include="Assets\GoogleMaps\Resources\MuskStandard.shader" />
+    <None Include="Assets\GoogleMaps\Examples\03_MapsStyling\Shaders\ModeledStructures.shader" />
+    <None Include="Assets\GoogleMaps\Resources\GoogleMapsShaderLib.cginc" />
+    <None Include="Assets\GoogleMaps\Examples\SharedAssets\Shaders\ColorUnlit.shader" />
+    <None Include="Assets\GoogleMaps\Resources\BaseMapTextured.shader" />
+    <None Include="Assets\GoogleMaps\Resources\BaseMapTexturedUnlit.shader" />
+    <None Include="Assets\GoogleMaps\Examples\URPExample\Materials\GoogleURPBaseMap.shader.txt" />
+    <None Include="Assets\GoogleMaps\Examples\03_MapsStyling\Shaders\noise.cginc" />
+    <None Include="Assets\GoogleMaps\Plugins\Google.Maps.xml" />
+    <None Include="Assets\GoogleMaps\Plugins\Google.Maps.Proto.dll" />
+    <None Include="Assets\GoogleMaps\Examples\03_MapsStyling\Shaders\NoiseBlendedStandardMaterial.shader" />
+    <None Include="Assets\GoogleMaps\Examples\SharedAssets\Shaders\ColorWithSpecular.shader" />
+    <None Include="Assets\GoogleMaps\Plugins\Google.Maps.Editor.dll" />
+    <None Include="Assets\GoogleMaps\Examples\SharedAssets\Shaders\UIOverlay.shader" />
+    <None Include="Assets\GoogleMaps\Examples\04_Advanced\Intersections\Shaders\Intersection.shader" />
+    <None Include="Assets\GoogleMaps\Plugins\Google.Protobuf.dll" />
+    <None Include="Assets\GoogleMaps\Examples\SharedAssets\Shaders\ColorWithSpecularLod.shader" />
+    <None Include="Assets\GoogleMaps\Resources\BaseMapColorUnlit.shader" />
+    <None Include="Assets\GoogleMaps\Examples\04_Advanced\Terrain\Materials\PaintControlTexture.shader" />
+    <None Include="Assets\GoogleMaps\Examples\04_Advanced\MoreStyling\Materials\NineSlicing\BuildingWall.shader" />
+    <None Include="Assets\GoogleMaps\Examples\URPExample\ReadmeURP.txt" />
+    <None Include="Assets\GoogleMaps\Resources\BaseMapColor.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -253,6 +380,15 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Maps.Proto">
+      <HintPath>Assets\GoogleMaps\Plugins\Google.Maps.Proto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Maps">
+      <HintPath>Assets\GoogleMaps\Plugins\Google.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets\GoogleMaps\Plugins\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
